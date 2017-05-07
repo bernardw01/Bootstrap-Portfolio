@@ -7,66 +7,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bernard L. Williams - Development Portfolio</title>
     <link href="assets/css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" type="" href="assets/css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <div class="mainHeader">
-            <div class="yourName">
-                <h1 class="yourName">Bernard Williams</h1>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Bernard L. Williams</a>
             </div>
-            <span class="navBar">
-					<a href="index.html" id="navBarLink">
-						About Me
-					</a>
-					<a href="contact.html" id="navBarLink">
-						Contact Me
-					</a>
-					<a href="portfolio.html" id="navBarLink">
-						My Portfolio
-					</a>
-				</span>
-        </div>
-        <div class="mainBody">
-            <div class="mainContent">
-                <div class="contentHeader">Portfolio</div>
-                <div class="portfolioItem">
-                    <img src="assets/images/technics-q-c-200-200-1.jpg" height="200px" alt="Photo of Bernard L Williams">
-                    <div class="itemLabel">
-                        Item 1
-                    </div>
-                </div>
-                <div class="portfolioItem">
-                    <img src="assets/images/technics-q-c-200-200-2.jpg" height="200px" alt="Photo of Bernard L Williams">
-                    <div class="itemLabel">
-                        Item 2
-                    </div>
-                </div>
-                <div class="portfolioItem">
-                    <img src="assets/images/technics-q-c-200-200-3.jpg" height="200px" alt="Photo of Bernard L Williams">
-                    <div class="itemLabel">
-                        Item 3
-                    </div>
-                </div>
-            </div>
-            <div class="sideBar">
-                <div class="sideBarHeader">Connect With Me</div>
-                <a href="https://www.linkedin.com/in/bernardwilliams/" target="_blank">
-                    <img src="assets/images/linkedin.jpeg" id="contactLink">
-                </a>
+            <ul class="nav navbar-nav">
 
-                <a href="http://stackoverflow.com/users/7841606/bernard-williams?tab=profile" target="_blank">
-                    <img src="assets/images/so-icon.png" id="contactLink">
-                </a>
-                <a href="https://github.com/bernardw01" target="_blank">
+                <li><a href='index.html' class="active">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="mainHeader">My Portfolio...</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="media">
+                    <div class="media-left media-top">
+                        <img src="assets/images/technics-q-c-200-200-1.jpg" class="media-object" style="width:60px">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Item 1</h4>
+                        <p>Magna labore occaecat in dolor aute officia nulla aliquip esse id. Magna eiusmod cillum veniam veniam consequat esse sit veniam duis veniam ut. Voluptate dolor nulla qui laborum. Culpa eiusmod anim et fugiat enim et.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-left media-top">
+                        <img src="assets/images/technics-q-c-200-200-2.jpg" class="media-object" style="width:60px">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Item 2</h4>
+                        <p>Magna labore occaecat in dolor aute officia nulla aliquip esse id. Magna eiusmod cillum veniam veniam consequat esse sit veniam duis veniam ut. Voluptate dolor nulla qui laborum. Culpa eiusmod anim et fugiat enim et.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-left media-top">
+                        <img src="assets/images/technics-q-c-200-200-3.jpg" class="media-object" style="width:60px">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Item 3</h4>
+                        <p>Magna labore occaecat in dolor aute officia nulla aliquip esse id. Magna eiusmod cillum veniam veniam consequat esse sit veniam duis veniam ut. Voluptate dolor nulla qui laborum. Culpa eiusmod anim et fugiat enim et.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="sideBar">
+                    <div class="sideBarHeader">Connect With Me</div>
+                    <a href="https://www.linkedin.com/in/bernardwilliams/" target="_blank"><img src="assets/images/linkedin.jpeg" id="contactLink"></a>
+                    <a href="http://stackoverflow.com/users/7841606/bernard-williams?tab=profile" target="_blank">
+                    <img src="assets/images/so-icon.png" id="contactLink"></a>
+                    <a href="https://github.com/bernardw01" target="_blank">
                     <img src="assets/images/github-logo-transparent.jpg" id="contactLink">
                 </a>
 
+                </div>
             </div>
         </div>
-        <div class="footer">Copyright Bernard L. Williams PMP</div>
     </div>
+
+    <script src="assets/css/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+
 </body>
 
 </html>
