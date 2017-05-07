@@ -38,3 +38,7 @@ a {
   text-align: center;
   padding: 15px;
 }
+
+.bottomPadding {
+    padding-bottom: 60px;
+}
